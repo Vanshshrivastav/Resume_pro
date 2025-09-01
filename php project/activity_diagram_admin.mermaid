@@ -1,0 +1,13 @@
+graph TD
+    A[Start] --> B{Admin Login?}
+    B -- Yes --> C[View Dashboard]
+    C --> D{Manage Users?}
+    D -- Yes --> E[View User List]
+    E --> F[Edit/Delete User]
+    D -- No --> G{View All Resumes?}
+    G -- Yes --> H[View Resume List]
+    H --> I[Delete Any Resume]
+    G -- No --> J[End]
+    F --> J
+    I --> J
+    B -- No --> K[End]

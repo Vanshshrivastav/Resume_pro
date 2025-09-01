@@ -1,0 +1,28 @@
+erDiagram
+    users {
+        INTEGER id PK
+        VARCHAR username UK
+        VARCHAR email UK
+        VARCHAR password
+    }
+    resumes {
+        INTEGER id PK
+        INTEGER user_id FK
+        VARCHAR fullname
+        TEXT address
+        VARCHAR email
+        VARCHAR phone
+        VARCHAR college_name
+        VARCHAR location
+        VARCHAR degree
+        VARCHAR education_date
+        VARCHAR job_title
+        VARCHAR employer
+        VARCHAR country
+        VARCHAR city
+        TEXT skills
+        VARCHAR duration
+        TEXT summary
+        VARCHAR github_url
+    }
+    users ||--o{ resumes : "has"

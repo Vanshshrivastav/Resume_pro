@@ -1,0 +1,13 @@
+graph TD
+    A[Start] --> B{User Login/Register?}
+    B -- Login --> C[View Dashboard]
+    B -- Register --> D[Create Account]
+    D --> C
+    C --> E{Create/Edit Resume?}
+    E -- Create --> F[Fill Resume Details]
+    E -- Edit --> G[Select Resume to Edit]
+    G --> F
+    F --> H[Save Resume]
+    H --> I[View Resume]
+    I --> J[End]
+    E -- No --> J

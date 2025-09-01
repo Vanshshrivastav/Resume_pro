@@ -1,0 +1,29 @@
+Table user :
+-id,
+-username*,
+-Email*,
+-password*
+
+Table resume:
+-personel:
+        -fullname*
+        -address*,
+        -Email*,
+        -phone*,
+-Education:
+        -college_name*,
+        -location,
+        -Degree*,
+        -Date*,
+-job exprition:
+        -Job Title*,
+        -Employer*,
+        -Country*
+        -city*,
+        -skills*,
+        -duration*,
+        -summery*,
+-githHub
+
+
+i have this info for my college minor project and i dont know about admin site. so guide me on that too and create a prompt to give database.build to create proper database tables query. the "*" fields are importent. also you mention that which field is nullable, non-nullable, primary key and all the importent things, and also mention to connect tables from each other in prompt. and can you tell me what should i add this prompt to make it more accutate?

@@ -1,0 +1,1 @@
+@basic.sql create usecase diagram , dataflow diagram , activity diagram (admin,user), er diagram. write mermaid code for this. create a new files for each diagram.

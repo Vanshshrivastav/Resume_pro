@@ -1,0 +1,16 @@
+sequenceDiagram
+    actor User
+    actor Admin
+    participant System
+
+    User->>System: Register
+    User->>System: Login
+    User->>System: Create Resume
+    User->>System: View Resume
+    User->>System: Edit Resume
+    User->>System: Delete Resume
+
+    Admin->>System: Login
+    Admin->>System: Manage Users
+    Admin->>System: View All Resumes
+    Admin->>System: Delete Any Resume

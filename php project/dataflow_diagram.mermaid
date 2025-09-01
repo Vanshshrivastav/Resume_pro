@@ -1,0 +1,14 @@
+graph TD
+    subgraph User
+        A[User] --> B(Web Browser)
+    end
+
+    subgraph System
+        B --> C{Web Server}
+        C --> D[Application Logic]
+        D --> E[Database]
+        E --> D
+        D --> C
+    end
+
+    C --> B
