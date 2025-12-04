@@ -11,9 +11,9 @@
 <?php
 session_start();
 if (isset($_SESSION['admin'])) {
-    include 'Header1.php';
+    include 'includes/Header1.php';
 } else {
-    include 'header.php';
+    include 'includes/header.php';
 }
 ?>
 
@@ -161,7 +161,7 @@ if (isset($_SESSION['admin'])) {
 </section>
 
 
-<?php include 'Footer.php' ?>
+<?php include 'includes/Footer.php' ?>
 
 </body>
 

@@ -12,9 +12,9 @@
     <?php
     session_start();
     if (isset($_SESSION['admin'])) {
-        include 'Header1.php';
+        include 'includes/Header1.php';
     } else {
-        include 'header.php';
+        include 'includes/header.php';
     }
     ?>
     <!-- Templates Section -->
@@ -75,7 +75,7 @@
             </div>
         </div>
     </section>
-    <?PHP include 'Footer.php' ?>
+    <?PHP include 'includes/Footer.php' ?>
 </body>
 
 </html>

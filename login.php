@@ -19,14 +19,13 @@
                     <p class="text-slate-600">Sign in to continue to your account.</p>
                 </div>
 
-                <form action="login_process.php" method="post">
+                <form action="process/login_process.php" method="post">
                     <div class="mb-6">
-                        <label for="username" class="block text-slate-700 text-sm font-semibold mb-2">Username</label>
-                        <input type="text" id="username" name="username" placeholder="Enter your username"
+                        <label for="email" class="block text-slate-700 text-sm font-semibold mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address"
                             class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 transition-colors"
                             required>
                     </div>
-
                     <div class="mb-6">
                         <label for="password" class="block text-slate-700 text-sm font-semibold mb-2">Password</label>
                         <input type="password" id="password" name="password" placeholder="Enter your password"

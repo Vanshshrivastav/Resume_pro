@@ -1,0 +1,53 @@
+
+Please provide the following information to create your professional profile and resume:
+
+**Personal Details:**
+*   Full Name:
+*   Contact Email:
+*   Phone Number (optional):
+*   LinkedIn Profile URL (optional):
+*   Personal Website/Portfolio URL (optional):
+
+**Summary/Objective:**
+*   A brief, compelling summary or objective statement (2-3 sentences) highlighting your key skills, experience, and career goals.
+
+**Work Experience (Start with your most recent position):**
+*   Job Title:
+*   Company Name:
+*   Location (City, State/Country):
+*   Start Date (Month Year):
+*   End Date (Month Year) or "Present":
+*   Key Responsibilities and Achievements (3-5 bullet points per role, quantify achievements where possible):
+    *   Example: Managed a team of X, increasing efficiency by Y%.
+    *   Example: Developed Z feature, leading to A% user engagement increase.
+
+**Education (Start with your highest degree):**
+*   Degree/Qualification:
+*   Major/Field of Study:
+*   University/Institution Name:
+*   Location (City, State/Country):
+*   Graduation Year:
+*   Relevant Coursework or Honors (optional):
+
+**Skills:**
+*   List your key skills, categorized if possible (e.g., Programming Languages, Tools, Soft Skills).
+    *   Technical Skills: (e.g., Python, JavaScript, SQL, AWS, Docker, Git)
+    *   Soft Skills: (e.g., Communication, Teamwork, Problem-Solving, Leadership)
+    *   Languages: (e.g., English (Fluent), Spanish (Conversational))
+
+**Projects (optional, if applicable):**
+*   Project Name:
+*   Role:
+*   Technologies Used:
+*   Brief Description: (2-3 sentences)
+*   Link to Project/GitHub (optional):
+
+**Certifications/Awards (optional):**
+*   Certification Name / Award Name:
+*   Issuing Organization:
+*   Date of Issuance / Date Received:
+
+**References (optional):**
+*   "Available upon request" or provide details if specifically required.
+
+Thank you for providing your information!

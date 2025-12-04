@@ -19,7 +19,7 @@
                     <p class="text-slate-600">Join us and start building your professional resume today.</p>
                 </div>
 
-                <form action="register_process.php" method="post">
+                <form action="process/register_process.php" method="post">
                     <div class="mb-6">
                         <label for="username" class="block text-slate-700 text-sm font-semibold mb-2">Username</label>
                         <input type="text" id="username" name="username" placeholder="Choose a username"
